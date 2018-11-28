@@ -1,0 +1,204 @@
+{
+    "paymentsResponse": {
+        "payments": [
+            {
+                "availableActions": {
+                    "cancel": true,
+                    "modify": true,
+                    "view": true
+                },
+                "from": {
+                    "account": {
+                        "accountApca": {
+                            "accountName": "THANNUJ",
+                            "accountNumber": "878237735",
+                            "bsb": "083047"
+                        },
+                        "apiStructType": "accountApca"
+                    }
+                },
+                "isMultiAuth": false,
+                "method": {
+                    "apiStructType": "directDebit",
+                    "directDebit": {
+                        "amount": "1100.00",
+                        "detailedDescription": "DETAILED DESCRIPTI",
+                        "remitterName": "THANNUJ"
+                    }
+                },
+                "paymentId": "4430729",
+                "paymentToken": "_2v1MyixcV_Q1T-4Lv9JmXESrEqrwPAFbUCpn2QQyiwcwCqnYzT9IfPQhgkkd0iv",
+                "recurrence": {
+                    "apiStructType": "periodic",
+                    "periodic": {
+                        "apiStructType": "until",
+                        "nextDate": "2019-04-07",
+                        "recurringFrequency": "MONTHLY",
+                        "until": {
+                            "endDate": "2021-05-10"
+                        }
+                    }
+                },
+                "status": "PERIODIC",
+                "to": {
+                    "account": {
+                        "accountApca": {
+                            "accountName": "Home Loan #9858",
+                            "accountNumber": "880169858",
+                            "bsb": "083047"
+                        },
+                        "apiStructType": "accountApca"
+                    }
+                }
+            },
+            {
+                "availableActions": {
+                    "view": true
+                },
+                "createdBy": "TTZFHPWMWXO UXYHEULQAOJ VDGLCXGPUVK",
+                "createdDate": "2018-11-14",
+                "from": {
+                    "account": {
+                        "accountApca": {
+                            "accountName": "Personal Account #7735",
+                            "accountNumber": "878237735",
+                            "bsb": "083047"
+                        },
+                        "apiStructType": "accountApca"
+                    }
+                },
+                "isMultiAuth": false,
+                "method": {
+                    "apiStructType": "transfer",
+                    "transfer": {
+                        "amount": "50000.00",
+                        "remitterName": "DOMINIC",
+                        "statementReference": "Linked Acc Trns"
+                    }
+                },
+                "modifiedDate": "2018-11-14",
+                "paymentId": "C0220738299",
+                "paymentToken": "EuLzjsUpqOMUPOPboOqWeiwkg3Hfejxl6fxqzu5NKBbRu0bNV7jWBA8Qk4Zifxmf",
+                "recurrence": {
+                    "apiStructType": "onceOff",
+                    "onceOff": {
+                        "paymentDate": "2018-11-14"
+                    }
+                },
+                "status": "PAID",
+                "to": {
+                    "account": {
+                        "accountApca": {
+                            "accountName": "Home Loan #9858",
+                            "accountNumber": "880169858",
+                            "bsb": "083047"
+                        },
+                        "apiStructType": "accountApca"
+                    }
+                }
+            },
+            {
+                "availableActions": {
+                    "cancel": true,
+                    "modify": true,
+                    "view": true
+                },
+                "createdDate": "2018-11-02",
+                "from": {
+                    "account": {
+                        "accountApca": {
+                            "accountName": "Personal Account #7",
+                            "accountNumber": "878237735",
+                            "bsb": "083047"
+                        },
+                        "apiStructType": "accountApca"
+                    }
+                },
+                "isMultiAuth": false,
+                "method": {
+                    "apiStructType": "transfer",
+                    "transfer": {
+                        "amount": "22.00",
+                        "remitterName": "w",
+                        "statementReference": "ww"
+                    }
+                },
+                "paymentId": "R9981315999",
+                "paymentToken": "EuLzjsUpqOMUPOPboOqWeq0xwVoA5YAEmFcobSByOxEjvmtjtyR9BObMbWm8q_Rp",
+                "recurrence": {
+                    "apiStructType": "periodic",
+                    "periodic": {
+                        "apiStructType": "forever",
+                        "forever": {
+                            "enabled": true
+                        },
+                        "nextDate": "2018-11-03",
+                        "recurringFrequency": "FORTNIGHTLY",
+                        "startDate": "2018-11-03"
+                    }
+                },
+                "status": "PERIODIC",
+                "to": {
+                    "account": {
+                        "accountApca": {
+                            "accountName": "Home Loan #9858",
+                            "accountNumber": "880169858",
+                            "bsb": "083047"
+                        },
+                        "apiStructType": "accountApca"
+                    }
+                }
+            },
+            {
+                "availableActions": {
+                    "view": true
+                },
+                "createdDate": "2018-11-02",
+                "from": {
+                    "account": {
+                        "accountApca": {
+                            "accountName": "Personal Account #7",
+                            "accountNumber": "878237735",
+                            "bsb": "083047"
+                        },
+                        "apiStructType": "accountApca"
+                    }
+                },
+                "isMultiAuth": false,
+                "method": {
+                    "apiStructType": "transfer",
+                    "transfer": {
+                        "amount": "10.00",
+                        "remitterName": "g",
+                        "statementReference": "gtg"
+                    }
+                },
+                "modifiedDate": "2018-11-02",
+                "paymentId": "N9981215999",
+                "paymentToken": "EuLzjsUpqOMUPOPboOqWepXgUuNXGUbtqS6FwNbpeg9YA9x3qcYhQ4KiJNpYxmB2",
+                "recurrence": {
+                    "apiStructType": "onceOff",
+                    "onceOff": {
+                        "paymentDate": "2018-11-02"
+                    }
+                },
+                "status": "PAID",
+                "to": {
+                    "account": {
+                        "accountApca": {
+                            "accountName": "Home Loan #9858",
+                            "accountNumber": "880169858",
+                            "bsb": "083047"
+                        },
+                        "apiStructType": "accountApca"
+                    }
+                }
+            }
+        ],
+        "totalRecords": 4
+    },
+    "status": {
+        "code": "API-200",
+        "message": "Success"
+    }
+}

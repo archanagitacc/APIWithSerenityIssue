@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="project.name" value="CustomerCreation"/>
+  <test name="SIT SUITE1">
+    <parameter name="project.name" value="CustomerCreation"/>
+    <groups>
+      <run>
+        <include name="CustomerCreation"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.nab.DataCreation.CustomerCreationTest"/>
+    </classes>
+  </test> <!-- SIT SUITE1 -->
+</suite> <!-- Failed suite [Suite] -->

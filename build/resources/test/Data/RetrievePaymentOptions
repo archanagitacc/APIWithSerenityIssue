@@ -1,0 +1,31 @@
+{
+    "loanRepaymentOptionsResponse": {
+        "contractRepayment": {
+            "frequency": "MONTHLY",
+            "nextInstalmentDate": "2019-04-07",
+            "loanEndDate": "2029-03-07",
+            "minimumAmount": "1000.00"
+        },
+        "repaymentOptions": [
+            {
+                "frequency": "WEEKLY",
+                "nextPaymentDate": "2019-03-31",
+                "minimumAmount": "250.00"
+            },
+            {
+                "frequency": "FORTNIGHTLY",
+                "nextPaymentDate": "2019-03-23",
+                "minimumAmount": "500.00"
+            },
+            {
+                "frequency": "MONTHLY",
+                "nextPaymentDate": "2019-04-07",
+                "minimumAmount": "1000.00"
+            }
+        ]
+    },
+    "status": {
+        "code": "API-200",
+        "message": "Success"
+    }
+}

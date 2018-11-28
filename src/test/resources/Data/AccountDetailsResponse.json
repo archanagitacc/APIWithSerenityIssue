@@ -1,0 +1,44 @@
+{
+    "status": {
+        "code": "API-200",
+        "message": "Success"
+    },
+    "accountDetailsResponse": {
+        "nickname": "Home Loan #9858",
+        "productCode": "LHOM",
+        "productName": "NAB TAILORED HOME LOAN",
+        "currentBalance": "-49990.00",
+        "apiStructType": "loanAccount",
+        "accountType": "HomeLoan",
+        "accountCategory": "DOMESTIC",
+        "loanAccount": {
+            "availableBalance": "49010.00",
+            "rate": "5.2400",
+            "instalmentAmount": "1000.00",
+            "loanCoverAttached": false,
+            "loanEndDate": "2029-03-07T00:00:00Z",
+            "nextInstalmentDate": "2019-04-07T00:00:00Z",
+            "repaymentFrequency": "MONTHLY",
+            "scheduledBalance": "100000.00",
+            "statementDeliveryFrequency": "HALF YEARLY",
+            "termDate": "2029-03-07T00:00:00Z",
+            "isOffsetEligible": true,
+            "interestChargedAccount": {
+                "bsb": "083047",
+                "accountNumber": "880169858",
+                "accountNickname": "Home Loan #9858",
+                "accountToken": "DDwQpON2kLQbmd7DPDUxJx6wg3Fsk-qDWMMMs89GRjUWJ5HEeh9JHtkWRX-xZzEf"
+            },
+            "productVersion": "CURRENT",
+            "marginRate": "0.0000",
+            "lineServiceFeeType": "MONTHLY",
+            "lineServiceFee": "8.00",
+            "minimumPaymentAmount": "1000.00",
+            "repaymentType": "PRINCIPAL_AND_INTEREST",
+            "interestPaidInCurrentTaxYear": "0.00",
+            "interestPaidInPreviousTaxYear": "0.00"
+        },
+        "accountToken": "DDwQpON2kLQbmd7DPDUxJx6wg3Fsk-qDWMMMs89GRjUWJ5HEeh9JHtkWRX-xZzEf",
+        "accountIdDisplay": "083047-880169858"
+    }
+}

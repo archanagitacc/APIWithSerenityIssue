@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34284" started-at="2018-09-26T08:08:45Z" finished-at="2018-09-26T08:09:20Z">
+    <groups>
+      <group name="CustomerCreation">
+        <method signature="CustomerCreationTest.CreateCustomer()[pri:0, instance:com.nab.DataCreation.CustomerCreationTest@1b604f19]" name="CreateCustomer" class="com.nab.DataCreation.CustomerCreationTest"/>
+      </group> <!-- CustomerCreation -->
+    </groups>
+    <test name="SIT SUITE1" duration-ms="34284" started-at="2018-09-26T08:08:45Z" finished-at="2018-09-26T08:09:20Z">
+      <class name="com.nab.DataCreation.CustomerCreationTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.nab.DataCreation.CustomerCreationTest@1b604f19]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2018-09-26T18:08:45Z" finished-at="2018-09-26T18:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.nab.DataCreation.CustomerCreationTest@1b604f19]" name="beforeEachTest" is-config="true" duration-ms="34258" started-at="2018-09-26T18:08:45Z" finished-at="2018-09-26T18:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nab.DataCreation.CustomerCreationTest.CreateCustomer()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c3708b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="CreateCustomer()[pri:0, instance:com.nab.DataCreation.CustomerCreationTest@1b604f19]" name="CreateCustomer" duration-ms="12" started-at="2018-09-26T18:09:20Z" finished-at="2018-09-26T18:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.nab.DataCreation.CustomerCreationTest@1b604f19]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2018-09-26T18:09:20Z" finished-at="2018-09-26T18:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateCustomer status=SUCCESS method=CustomerCreationTest.CreateCustomer()[pri:0, instance:com.nab.DataCreation.CustomerCreationTest@1b604f19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.nab.DataCreation.CustomerCreationTest -->
+    </test> <!-- SIT SUITE1 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,132 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "banking/nab/accounts/summary"
+    },{
+    "status": {
+        "code": "API-200",
+        "message": "Success"
+    },
+    "accountsResponse": {
+        "accounts": [
+            {
+                "accountType": "TransactionAccount",
+                "category": "DOMESTIC",
+                "nickname": "Personal Account #7735",
+                "isVisible": true,
+                "apiStructType": "accountApca",
+                "accountApca": {
+                    "bsb": "083047",
+                    "accountId": "878237735"
+                },
+                "accountLevelFlags": [
+                    {
+                        "identifier": "P2PSend",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "P2PReceive",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "TransferSource",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "MultiTransfer",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "Donation",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "ChequeReorder",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "Bpay",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "TravelCardReload",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "International",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "TermDeposit",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "TransferDest",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "StopCheque",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "TravelCardUnload",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "IsEligibleForGoals",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "OnlineStatement",
+                        "value": "Y"
+                    }
+                ],
+                "accountToken": "m8MCyU-611gabGItVswJOd2w7qQt5qg0CZgZqMA6wraNrADMHmeoVqH3Y9dAvEIu",
+                "accountIdDisplay": "083047-878237735"
+            },
+            {
+                "accountType": "HomeLoan",
+                "category": "DOMESTIC",
+                "nickname": "Home Loan #9858",
+                "isVisible": true,
+                "apiStructType": "accountApca",
+                "accountApca": {
+                    "bsb": "083047",
+                    "accountId": "880169858"
+                },
+                "accountLevelFlags": [
+                    {
+                        "identifier": "TransferDest",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "StopCheque",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "TravelCardUnload",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "Redraw",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "EquityView",
+                        "value": "Y"
+                    },
+                    {
+                        "identifier": "IsEligibleForGoals",
+                        "value": "N"
+                    },
+                    {
+                        "identifier": "OnlineStatement",
+                        "value": "Y"
+                    }
+                ],
+                "accountToken": "tSa2rvmDC-lIh40PnFZvkpUeRYuXgaA3wi3LjZbUyK_GiLIzeippkdrVmMuLl0qy",
+                "accountIdDisplay": "083047-880169858"
+            }
+        ]
+    }
+}

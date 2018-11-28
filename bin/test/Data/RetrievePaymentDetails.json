@@ -1,0 +1,56 @@
+{
+    "paymentResponse": {
+        "availableActions": {
+            "cancel": true,
+            "modify": true,
+            "view": true
+        },
+        "from": {
+            "account": {
+                "accountApca": {
+                    "accountName": "THANNUJ",
+                    "accountNumber": "878237735",
+                    "bsb": "083047"
+                },
+                "apiStructType": "accountApca"
+            }
+        },
+        "isMultiAuth": false,
+        "method": {
+            "apiStructType": "directDebit",
+            "directDebit": {
+                "amount": "1100.00",
+                "detailedDescription": "DETAILED DESCRIPTI",
+                "remitterName": "THANNUJ"
+            }
+        },
+        "paymentId": "4430729",
+        "paymentToken": "_2v1MyixcV_Q1T-4Lv9JmXESrEqrwPAFbUCpn2QQyiwcwCqnYzT9IfPQhgkkd0iv",
+        "recurrence": {
+            "apiStructType": "periodic",
+            "periodic": {
+                "apiStructType": "forever",
+                "forever": {
+                    "enabled": true
+                },
+                "nextDate": "2019-04-07",
+                "recurringFrequency": "MONTHLY"
+            }
+        },
+        "status": "PERIODIC",
+        "to": {
+            "account": {
+                "accountApca": {
+                    "accountName": "Home Loan #9858",
+                    "accountNumber": "880169858",
+                    "bsb": "083047"
+                },
+                "apiStructType": "accountApca"
+            }
+        }
+    },
+    "status": {
+        "code": "API-200",
+        "message": "Success"
+    }
+}

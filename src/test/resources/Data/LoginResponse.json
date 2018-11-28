@@ -1,0 +1,22 @@
+{
+    "status": {
+        "code": "API-200",
+        "message": "Success"
+    },
+    "loginResponse": {
+        "tokens": [
+            {
+                "type": "header",
+                "name": "Authorization",
+                "value": "1df65ada-72eb-42cd-a147-21fe8124bd96",
+                "expires": "2018-11-23T14:55:17.942Z"
+            },
+            {
+                "type": "header",
+                "name": "visitorID",
+                "value": "8d72705ddfeaed55c57d7f9dbb2efbc8a5a332d7bd87de30a4af6ed59391f225",
+                "expires": "2018-11-23T14:55:17.942Z"
+            }
+        ]
+    }
+}
