@@ -5,11 +5,18 @@ apply plugin: 'net.serenity-bdd.aggregator'
 
 version = '1.0-SNAPSHOT'
 
-def serenityVersion = "1.1.1"
+def serenityVersion = "1.2.2"
+
+test {
+    reports {
+        junitXml.enabled = false
+        html.enabled = false
+    }               
+}
 
 dependencies {
 	compile "net.serenity-bdd:serenity-core:$serenityVersion"
-	compile "net.serenity-bdd:serenity-cucumber:$serenityVersion"
+	compile "net.serenity-bdd:serenity-cucumber:1.1.23"
 	compile("net.serenity-bdd:serenity-rest-assured:$serenityVersion")
     compile "net.serenity-bdd:serenity-junit:$serenityVersion"
     compile group: 'org.seleniumhq.selenium', name: 'selenium-htmlunit-driver', version: '2.0.0'
@@ -26,9 +33,9 @@ dependencies {
    compile 'com.sun.jersey:jersey-client:1.19.4'
     
     
-   	compile 'org.seleniumhq.selenium:selenium-support:2.53.0'
- 	compile 'org.seleniumhq.selenium:selenium-remote-driver:2.53.0'
- 	compile 'org.seleniumhq.selenium:selenium-java:2.53.0'
+   	compile 'org.seleniumhq.selenium:selenium-support:2.35.0'
+ 	compile 'org.seleniumhq.selenium:selenium-remote-driver:2.35.0'
+ 	compile 'org.seleniumhq.selenium:selenium-java:2.35.0'
  	
  	compile 'org.apache.commons:commons-csv:1.2'
     compile 'net.sourceforge.javacsv:javacsv:2.0'
@@ -36,9 +43,9 @@ dependencies {
  	compile 'org.testng:testng:6.9.10'
  	
  	testCompile 'org.skyscreamer:jsonassert:1.2.3'
- 	testCompile 'org.seleniumhq.selenium:selenium-support:2.53.0'
-    testCompile 'org.seleniumhq.selenium:selenium-remote-driver:2.53.0'
-    testCompile 'org.seleniumhq.selenium:selenium-java:2.53.0'
+ 	testCompile 'org.seleniumhq.selenium:selenium-support:2.35.0'
+    testCompile 'org.seleniumhq.selenium:selenium-remote-driver:2.35.0'
+    testCompile 'org.seleniumhq.selenium:selenium-java:2.35.0'
 	
 	
 	testCompile 'org.testng:testng:6.9.10'
@@ -48,18 +55,16 @@ dependencies {
 
 buildscript {
     repositories {
-        mavenLocal()
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.1")     
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.2.2")     
     }
 }
 repositories {
-    mavenLocal()
         jcenter()
     
 }
 
-
+gradle.startParameter.continueOnFailure = true   
 
